@@ -62,7 +62,7 @@ The output file contains one row for each Subject, Activity combination. The var
 
 *Subject:*     The subject number is taken from the data files subject_test.txt and subject_train.txt, as described above.  
 *Activity:*    The activity is taken from the data files Y_test.txt and Y_train.txt, as described above. In the original data files the activities were coded numerically. The Activity values in the output file are quoted characters; for each subject the Activities are in the order of the original coding.  
-*Outcome variables*  The various analysis variables come in groups. For ease of reading the order below is slightly different than the order of the columns in the output data set
+*Outcome variables*  The various analysis variables come in groups. For ease of reading the order below is slightly different than the order of the columns in the output data set. All variables in the input data set had been scaled, so there are no units for the variables.
 
 * In the raw dataset each group there are values for the X, Y, and Z components, and for the magnitude. For each set of observations the mean and standard deviation are given. 
 * The groups used in this analysis are the following  
